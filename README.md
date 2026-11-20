@@ -12,11 +12,11 @@ A Forja de Olimpo coordena especialistas para transformar uma demanda de engenha
 2. No Orca, abra **Bots → + → Import from another app… → Another app…**. Em **Add the folder it made**, selecione a pasta que contém `SOUL.md` e `skills/`. O repositório já fornece os arquivos de importação. Você pode deixar **Paste its reply, if it wrote one** vazio.
 3. No campo de nome abaixo dos avatares, digite **Olímpicos** se quiser chamar a equipe assim no chat. Você também pode usar **Forja de Olimpo**, o nome do projeto.
 4. Em **Runs on**, confira o computador e o agente. Se aparecer **Claude Code** e você quiser usar os perfis Codex deste template, clique em **Change** e selecione **Codex**. Clique em **Create Olímpicos** (o botão acompanha o nome escolhido). No chat, revise o plano de importação e confirme a persona e a habilidade **conduzir-entrega**. [Guia de importação do Orca](https://orca.dev/docs/bots/import)
-5. Na primeira conversa, dê uma demanda com um critério que possa ser testado. Por exemplo:
+5. No chat do bot, descreva a tarefa com suas palavras. Zeus aplica a habilidade `conduzir-entrega` automaticamente ao reconhecer uma demanda de engenharia. Por exemplo:
 
-> No repositório do app, investigue por que uma foto enviada offline aparece duas vezes após a reconexão. A entrega está pronta quando um teste reproduzir duas tentativas de sincronização e confirmar que apenas uma foto aparece. Comece pelo diagnóstico e apresente o plano antes de editar.
+> No app, a foto aparece duas vezes quando a conexão volta. Investigue e me traga um plano antes de editar.
 
-Nesse exemplo, **Quíron** reproduz a falha. Se a evidência apontar para a fila de sincronização, **Hefesto** recebe o cenário e o critério de aceite para implementar a correção. **Ártemis** verifica se o teste detecta a duplicação e **Têmis** revisa o diff. Uma mudança restrita à fila pode dispensar Figma, simulador e revisão visual.
+Nesse exemplo, Zeus começa pelo diagnóstico, recorre a **Quíron** se precisar isolar a falha e apresenta o plano no chat. Quando você autorizar a correção, **Hefesto** pode implementar a mudança com um teste que simule duas tentativas de sincronização e confirme que a foto aparece uma única vez. Pedidos como “revise este diff” e “avalie os erros desta versão” seguem o mesmo princípio.
 
 ## Como uma mudança percorre a Forja
 

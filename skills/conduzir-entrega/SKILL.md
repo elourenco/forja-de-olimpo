@@ -1,6 +1,6 @@
 ---
 name: conduzir-entrega
-description: Coordenar uma entrega de engenharia no Orca, desde um card ou pedido técnico até implementação, revisão e verificação pós-release. Seleciona especialistas por evidência necessária e risco da mudança.
+description: Use quando a pessoa relatar um bug ou erro, trouxer um card ou log para investigação, ou pedir planejamento, implementação, testes, revisão de código ou verificação de release. Conduza a etapa solicitada e acione especialistas conforme o risco e a evidência necessária.
 ---
 
 # Conduzir uma entrega
