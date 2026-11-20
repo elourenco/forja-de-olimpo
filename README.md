@@ -10,7 +10,7 @@ A Forja de Olimpo coordena especialistas para transformar uma demanda de engenha
 
 1. Tenha o Orca instalado e o Codex autenticado no computador que executará o bot. Clone este repositório ou extraia o ZIP obtido em **Code → Download ZIP**.
 2. No Orca, abra **Bots → + → Import from another app… → Another app…**. Selecione a pasta que contém `SOUL.md` e `skills/`.
-3. Dê ao bot o nome **Forja de Olimpo**, confira o computador e o agente selecionados e crie o bot. Revise o plano de importação no chat e confirme a persona e a habilidade **conduzir-entrega**. [Guia de importação do Orca](https://orca.dev/docs/bots/import)
+3. Quando o Orca pedir o nome do bot, você pode usar **Olímpicos** para chamar a equipe no chat ou **Forja de Olimpo** para usar o mesmo nome do projeto. Confira o computador e o agente selecionados e crie o bot. Revise o plano de importação no chat e confirme a persona e a habilidade **conduzir-entrega**. [Guia de importação do Orca](https://orca.dev/docs/bots/import)
 4. Na primeira conversa, dê uma demanda com um critério que possa ser testado. Por exemplo:
 
 > No repositório do app, investigue por que uma foto enviada offline aparece duas vezes após a reconexão. A entrega está pronta quando um teste reproduzir duas tentativas de sincronização e confirmar que apenas uma foto aparece. Comece pelo diagnóstico e apresente o plano antes de editar.
