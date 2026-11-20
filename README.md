@@ -9,9 +9,10 @@ A Forja de Olimpo coordena especialistas para transformar uma demanda de engenha
 ## Comece com uma tarefa
 
 1. Tenha o Orca instalado e o Codex autenticado no computador que executará o bot. Clone este repositório ou extraia o ZIP obtido em **Code → Download ZIP**.
-2. No Orca, abra **Bots → + → Import from another app… → Another app…**. Selecione a pasta que contém `SOUL.md` e `skills/`.
-3. Quando o Orca pedir o nome do bot, você pode usar **Olímpicos** para chamar a equipe no chat ou **Forja de Olimpo** para usar o mesmo nome do projeto. Confira o computador e o agente selecionados e crie o bot. Revise o plano de importação no chat e confirme a persona e a habilidade **conduzir-entrega**. [Guia de importação do Orca](https://orca.dev/docs/bots/import)
-4. Na primeira conversa, dê uma demanda com um critério que possa ser testado. Por exemplo:
+2. No Orca, abra **Bots → + → Import from another app… → Another app…**. Em **Add the folder it made**, selecione a pasta que contém `SOUL.md` e `skills/`. O repositório já fornece os arquivos de importação. Você pode deixar **Paste its reply, if it wrote one** vazio.
+3. No campo de nome abaixo dos avatares, digite **Olímpicos** se quiser chamar a equipe assim no chat. Você também pode usar **Forja de Olimpo**, o nome do projeto.
+4. Em **Runs on**, confira o computador e o agente. Se aparecer **Claude Code** e você quiser usar os perfis Codex deste template, clique em **Change** e selecione **Codex**. Clique em **Create Olímpicos** (o botão acompanha o nome escolhido). No chat, revise o plano de importação e confirme a persona e a habilidade **conduzir-entrega**. [Guia de importação do Orca](https://orca.dev/docs/bots/import)
+5. Na primeira conversa, dê uma demanda com um critério que possa ser testado. Por exemplo:
 
 > No repositório do app, investigue por que uma foto enviada offline aparece duas vezes após a reconexão. A entrega está pronta quando um teste reproduzir duas tentativas de sincronização e confirmar que apenas uma foto aparece. Comece pelo diagnóstico e apresente o plano antes de editar.
 
